@@ -3,7 +3,7 @@
 .NOTES  Author:  William Lam
 .NOTES  Site:    www.virtuallyghetto.com
 .NOTES  Reference: http://www.virtuallyghetto.com/2016/10/5-different-ways-to-run-powercli-script-using-powercli-core-docker-container.html
-.NOTES  Docker Command: docker run --rm -it --entrypoint='/usr/bin/powershell' \
+.NOTES  Docker Command: docker run --rm -it --entrypoint='/usr/bin/pwsh' \
     -v /Users/lamw/scripts:/tmp/scripts vmware/powerclicore /tmp/scripts/pcli_core_docker_sample3.ps1 \
     -VI_SERVER 192.168.1.150 \
     -VI_USERNAME 'administrator@vghetto.local' \
